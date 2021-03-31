@@ -2,8 +2,6 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-    res.send('Sauces',{title: 'search Results of Sauces'});
-    
-  });
-
+    res.send('Sauces',{title: 'search Results of Sauces'});  
+ });
 module.exports = router;
