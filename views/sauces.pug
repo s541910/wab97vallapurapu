@@ -10,7 +10,8 @@ block content
      
      div(class="col-sm-2",,onclick=`buy(${i})`) company: #{form.company} - model: #{form.package} - prize: #{form.prize}
      -i=i+1
-  script.
-   function buy(a){
-    alert(`purchased item ${a+1}`)        
-   }
+  script.                
+        function buy(intemNo)
+        {
+              alert(`you purchased Item ${intemNo+1}`)
+        }
